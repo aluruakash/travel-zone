@@ -1,0 +1,274 @@
+img.travel-logo{
+	width: 15%;
+	margin-left: 100px;
+	margin-top: 5px;
+}
+@media(max-width: 1199px){
+	img.travel-logo{
+		width: 150px;
+		height: 50px;
+		position: absolute;
+		left: 0;
+		right: 0;
+		margin-right: auto;
+		margin-left: auto;
+		z-index: 1;
+	}
+}
+@media(max-width: 767px){
+	.slider-info{
+		margin-top: 55px;
+	}
+}
+.slider-info p{
+	font-size: 28px;
+	padding-top: 0;
+}
+.services-main{
+	margin-bottom: 25px;
+}
+.services-main:after{
+	display: block;
+	content: "";
+	clear: both;
+}
+
+
+@media(min-width: 1200px){
+	.footer_bottom{
+		position: relative;
+	}
+	p.powered{
+		width: 300px;
+		margin-left: auto;
+		margin-right: auto;
+		position: absolute;
+		right: 20px;
+		bottom: 4px;
+	}
+	img.power-img{
+		width: 35px;
+		height: 35px;
+		position: absolute;
+		right: 70px;
+		bottom: 10px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.copyright{
+		height: 50px;
+	}
+}
+@media(max-width: 1199px){
+	.footer_bottom{
+		position: relative;
+	}
+	p.powered{
+		width: 300px;
+		margin-left: auto;
+		margin-right: auto;
+		position: absolute;
+		left: 0;
+		right: 0;
+		bottom: 15px;
+	}
+	img.power-img{
+		width: 35px;
+		height: 35px;
+		position: absolute;
+		right: 0px;
+		left: 130px;
+		bottom: 20px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.copyright{
+		height: 90px;
+	}
+}
+
+
+
+img.service-img{
+	width: 80%;
+}
+
+	.services-row .grid1{
+		background-image: url(../images/objective1.jpg);
+		background-repeat: no-repeat;
+		-webkit-background-size: cover;
+		background-size: cover;
+	}
+	.services-row .grid2{
+		background-image: url(../images/objective2.jpg);
+		background-repeat: no-repeat;
+		-webkit-background-size: cover;
+		background-size: cover;
+	}
+	.services-row .grid3{
+		background-image: url(../images/objective3.jpg);
+		background-repeat: no-repeat;
+		-webkit-background-size: cover;
+		background-size: cover;
+	}
+	.services-row .grid4{
+		background-image: url(../images/objective4.jpg);
+		background-repeat: no-repeat;
+		-webkit-background-size: cover;
+		background-size: cover;
+	}
+	.services-row .grid5{
+		background-image: url(../images/objective5.jpg);
+		background-repeat: no-repeat;
+		-webkit-background-size: cover;
+		background-size: cover;
+	}
+	.services-row .grid6{
+		background-image: url(../images/objective6.jpg);
+		background-repeat: no-repeat;
+		-webkit-background-size: cover;
+		background-size: cover;
+	}
+	.services-row .grid7{
+		background-image: url(../images/objective7.jpg);
+		background-repeat: no-repeat;
+		-webkit-background-size: cover;
+		background-size: cover;
+	}
+	.services-row .grid8{
+		background-image: url(../images/objective8.jpg);
+		background-repeat: no-repeat;
+		-webkit-background-size: cover;
+		background-size: cover;
+	}
+	.services-row .sevices-w3layouts-grids{
+		height: 250px;
+		border-radius: 50%;
+	}
+	.services-row h5{
+		font-size: 18px;
+	}
+
+
+@media(min-width: 1200px){
+	.blog p.para-w3-agileits{
+		text-align: left;
+		margin-left: -25px;
+	}
+	.blog ul{
+		text-align: left;
+	    color: #999;
+	}
+	.blog ul li{
+		list-style: none;
+		text-align: left;
+	}
+	.blog ul li {
+	    text-decoration: none;
+	    font-size: .9em;
+	    line-height: 1.9em;
+	    margin-top: 0.5em;
+	    display: inherit;
+	    letter-spacing: 1px;
+	}
+	.blog ul li i {
+	    padding-right: .7em;
+	    color: #88d902;
+	    font-size: 1.5em;
+	}
+	.modal-dialog ul{
+		text-align: left;
+	    color: #999;
+	}
+	.modal-dialog ul li{
+		list-style: none;
+		text-align: left;
+	}
+	.modal-dialog ul li {
+	    text-decoration: none;
+	    font-size: .9em;
+	    line-height: 1.9em;
+	    margin-top: 0.5em;
+	    display: inherit;
+	    letter-spacing: 1px;
+	}
+	.modal-dialog ul li i {
+	    padding-right: .7em;
+	    color: #88d902;
+	    font-size: 1.5em;
+	}
+}
+@media(max-width: 1199px){
+	.blog ul{
+	    color: #999;
+	    font-size: 14px;
+	}
+	.blog ul li{
+		list-style: none;
+	}
+	.blog ul li i {
+	    padding-right: .7em;
+	    color: #88d902;
+	    font-size: 1.5em;
+	}
+}
+.about p{
+	text-align: justify;
+}
+.blog p{
+	text-align: justify !important;
+}
+.testimonials p{
+	text-align: justify;
+}
+.agileits-w3layouts-footer p{
+	text-align: justify;
+}
+.sevices-w3layouts p.tagline{
+	text-align: center;
+	color: #fff;
+}
+body{
+    
+}
+h1,h2,h3,h4,h5,h6,p,ul{
+    font-family: 'Oswald', sans-serif;
+}
+
+img.travel-nav-logo{
+	width: 15%;
+	position: absolute;
+	left: 130px;
+	margin-right: auto;
+	margin-left: auto;
+	top:20px;
+
+}
+@media(max-width: 1199px){
+	img.travel-nav-logo{
+		width: 15%;
+		position: absolute;
+		left: 60px;
+		top:60px;
+		margin-left: auto;
+		margin-left: auto;
+	}
+}
+.sevices-w3layouts-grids h5{
+	color: #fff !important;
+}
+h3.object{
+	margin:0;
+	margin-bottom: 20px;
+}
+.w3layouts-agileinfo{
+	position: relative;
+}
+img.about-img{
+	margin-top: 50px;
+}
+@media(min-width: 1200px){
+	.container{
+		margin-top: 20px;
+	}
+}
